@@ -1,4 +1,4 @@
-//This is the CartList component. It displays a list of the cartitem components.
+//This is the CartList component. It displays a list of the cart item components.
 
 
 import React from 'react';

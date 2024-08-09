@@ -1,6 +1,9 @@
-
+//THis is the CartForm component - it allows me to add new items to the cart. 
 
 import React, { useState } from 'react';
+//Below is the functional component CartForm  with  onAdd as a prop that the component
+//recieves. The useState is a React Hook that will allow me to add state to my functional
+//component. The state values are name, price, and quantity.
 
 function CartForm({ onAdd }) {
   const [name, setName] = useState('');
