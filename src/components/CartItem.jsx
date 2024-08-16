@@ -1,4 +1,4 @@
-//Below is a functional React componenet called CartItem. It is used to
+//Below is a functional React component called CartItem. It is used to
 //display the items in my shopping cart. It allows me to remove and update my cart.
 //The props are item, onUpdate, and onRemove. They are passed into the component.
 //onUpdate is a function that updates the item's quantity; onRemove is a function that

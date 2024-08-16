@@ -1,9 +1,13 @@
 //THis is the CartForm component - it allows me to add new items to the cart. 
+//This is where the form is created and can be updated with the number of items
+//in my cart. 
 
 import React, { useState } from 'react';
 //Below is the functional component CartForm  with  onAdd as a prop that the component
 //recieves. The useState is a React Hook that will allow me to add state to my functional
-//component. The state values are name, price, and quantity.
+//component. The state values are name, price, and quantity. 
+//The CartForm component uses the 'useState' hook to manae the state for name, price, and quantity. 
+//It allows the component  to keep track of the values entered into the form fields. 
 
 function CartForm({ onAdd }) {
   const [name, setName] = useState('');
@@ -19,7 +23,7 @@ function CartForm({ onAdd }) {
       setQuantity('');
     }
   };
-
+//the handlesubmit function handles the form submission in the code
   return (
     <form onSubmit={handleSubmit}>
       <input
